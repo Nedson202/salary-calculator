@@ -21,28 +21,30 @@
 
       <div class="container input-form">
         <form>
-          <h3></h3>
-          <div>
-            <input type="text" name="employeeName" id="employeeId" placeholder="Employee name">
+          <div class="form-group" id="employeeName">
+            <input class="form-control" type="text" name="employeeName" id="employeeId" placeholder="Employee name">
           </div>
-          <div>
-            <select id="level">
-              <option>Employee Level</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <select id="employeeLevel" class="form-control">
+                <option>Employee Level</option>
+                <option value="">1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+            <div class="col-sm-6 form-group">
+              <select id="employeeRole" class="form-control">
+                <option>Employer role</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div> 
           </div>
-          <div>
-            <select id="role">
-              <option>Employer role</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
-          </div>          
-
+          <button class="btn btn-success">calculate salary</button>       
         </form>
+
       </div>
 
   </body>
