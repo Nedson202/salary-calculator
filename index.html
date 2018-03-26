@@ -30,6 +30,8 @@
                 <option value="">1</option>
                 <option>2</option>
                 <option>3</option>
+                <option>4</option>
+                <option>5</option>
               </select>
             </div>
             <div class="col-sm-6 form-group">
@@ -41,9 +43,60 @@
               </select>
             </div> 
           </div>
-          <button class="btn btn-success">calculate salary</button>       
+          <button class="btn btn-success" onclick="return calculateSalary">calculate salary</button>       
         </form>
+      </div>
 
+      <div class="container result">
+        <div class="row">
+          <div class="col-md-6">
+            <p>EMPLOYEE NAME:</p>
+          </div>
+          <div class="col-md-6">
+            <p>.......</p>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="col-md-4" style="margin-top: 40px">
+            <p>BENEFITS:</p>
+          </div>
+          <div class="col-md-8">
+            <div class="col-md-12">
+              <div class="col-md-6">House:</div>
+              <div class="col-md-6">........</div>
+            </div>
+            <div class="col-md-12">
+              <div class="col-md-6">Health:</div>
+              <div class="col-md-6">.......</div>
+            </div>
+            <div class="col-md-12">
+              <div class="col-md-6">Feeding:</div>
+              <div class="col-md-6">.......</div>
+            </div>
+            <div class="col-md-12">
+              <div class="col-md-6">Traveling</div>
+              <div class="col-md-6">........</div>
+            </div> 
+            <div class="col-md-12">
+              <div class="col-md-6">Workshop</div>
+              <div class="col-md-6">........</div>
+            </div>                                                          
+          </div>
+        </div>
+        <hr/>
+        <div class="col-md-6">
+          <p>BASIC SALARY:</p>
+        </div>
+        <div class="col-md-6">
+          <p>.......</p>
+        </div>
+        <div class="col-md-6">
+          <p>TOTAL SALARY:</p>
+        </div>
+        <div class="col-md-6">
+          <p id="result"></p>
+        </div>              
       </div>
 
   </body>

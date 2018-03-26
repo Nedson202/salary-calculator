@@ -30,12 +30,24 @@ body {
 }
 
 .input-form {
-  margin-top: 300px;
+  margin-top: 250px;
   background: rgba(22, 30, 36, 0.7);
   box-shadow: 0 3px 5px 1px;
   padding: 50px 20px;
   border-radius: 20px;
   width: 670px;
+}
+
+.result {
+  /*display: none;*/
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background: rgba(22, 30, 36, 0.7);
+  box-shadow: 0 3px 5px 1px;
+  padding: 50px 20px;
+  border-radius: 20px;
+  width: 670px;
+  color: #fff;  
 }
 
 #employeeRole, #employeeLevel{
